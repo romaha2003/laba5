@@ -1,20 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
-
-int main()
-{
- float arafD , arafV, KD , SD , KV , SV;
- int dim=14, i;
- int A[dim];
- printf("Введіть масив A:\n");
- for(i=0;i<dim;i++)
- 
- {
-     printf(" A[%i] = ",i);
-     scanf("%i",&A[i]);
- }
  SD=0;
  KD=0;
  for(i=0;i<dim;i++){
@@ -36,4 +19,4 @@ int main()
      }
  }
      printf("Середнє арифметичне для відємних = %2.1f\n",arafV);
-}
+
