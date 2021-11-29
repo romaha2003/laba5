@@ -1,38 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
-
-int main(){
- int dim, min, max;
-float A[14];
- 
-
- 
-int Nneg=0,Npos=0;
-for (int i =0; i<dim; i++){
-    if(array[i]<0){
-    Nneg++;
-    }
-    if(array[i]>0){
-    Npos++;
-    }
-}
-
-
-if(Nneg=14){
+    int Nneg=0,Npos=0;
     for (int i =0; i<dim; i++){
-    array[i]=0;    
+        if(A[i]<0){
+            Nneg++;
+        }
+        if(A[i]>0){
+            Npos++;
+        }
     }
-}
-else if(Npos=14){
-    for (int i =0; i<14; i++){
-    array[i]=1;    
+    //printf("Nneg = %i\n",Nneg);
+    //printf("Npos = %i\n",Npos);
+    if(Nneg==14){
+        for (int i =0; i<dim; i++){
+            A[i]=0;    
+        }
+    }
+    else if(Npos==14){
+        for (int i =0; i<14; i++){
+            A[i]=1;    
+        }    
     }    
-}    
     
-else if{
-    
-}   
-    return 0;
-}
+    else {
+        //заміна елементів масиву(за умовою)
+     
+     
+    }    
