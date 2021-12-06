@@ -1,8 +1,8 @@
 for (int i =0; i<14; i++){
-            if(i%2!=0){
-                A[i]=arafD;
-            }
             if(i%2==0 && A[i]<0){
                 A[i]=arafV;
+            }
+            if(i%2!=0){
+                A[i]=arafD;
             }
         }
